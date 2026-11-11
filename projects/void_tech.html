@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" class="is-loading" data-page="project">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Void Tech — NOVARA</title>
+<meta name="description" content="A launch site for a quantum computing lab, visualising qubits as a field of collapsing light.">
+<meta name="theme-color" content="#f0f1fa">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script>try{if(sessionStorage.getItem('nv-visited'))document.documentElement.classList.add('no-preload','t-in')}catch(e){}</script>
+</head>
+<body class="theme-project" style="--accent:#3a5bff;--pbg:#0c0f1c">
+<header id="header">
+  <a id="logo" href="../index.html" data-sfx><span class="logo-word" aria-label="NOVARA">NOVARA</span></a>
+  <a id="back-btn" class="pill pill--white" href="../projects.html" data-sfx><span class="pill-arrow pill-arrow--back"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span>Back</span></a>
+  <div id="header-right">
+    <button id="sound-btn" class="circle-btn" aria-label="Toggle sound" data-sfx><canvas width="90" height="90"></canvas></button>
+    <a id="talk-btn" class="pill pill--dark" href="mailto:hello@novara.studio" data-sfx><span class="pill-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pill-text">Let's talk</span><span class="pill-dot"></span></a>
+    <button id="menu-btn" class="pill pill--light" aria-expanded="false" aria-controls="menu" data-sfx>
+      <span class="menu-btn-labels"><span>Menu</span><span>Close</span></span><span class="menu-btn-dots"><i></i><i></i></span>
+    </button>
+  </div>
+  <nav id="menu" aria-hidden="true">
+    <div class="menu-card menu-links">
+      <a class="menu-link" href="../index.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Home</span><span class="menu-link-text">Home</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link" href="../about.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">About us</span><span class="menu-link-text">About us</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link is-active" href="../projects.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Projects</span><span class="menu-link-text">Projects</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link" href="mailto:hello@novara.studio" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Contact</span><span class="menu-link-text">Contact</span></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+    </div>
+    <div class="menu-card menu-news">
+      <h3>Subscribe to<br>our newsletter</h3>
+      <form class="news-form" novalidate data-news="menu"><i class="news-bg"></i>
+    <input type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" data-focus-sfx>
+    <button type="submit" aria-label="Subscribe" data-sfx><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    <p class="news-msg" aria-live="polite"></p>
+  </form>
+    </div>
+    <a class="menu-card menu-talk" href="mailto:hello@novara.studio" data-sfx><span>Let's talk</span><svg viewBox="0 0 20 16"><rect x="1" y="1" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 6h10M5 10h6" stroke="currentColor" stroke-width="1.5"/></svg></a>
+    <a class="menu-card menu-labs" href="https://example.com/" target="_blank" rel="noopener" data-sfx>
+      <span class="labs-icon"><i></i><i></i><b></b></span><span class="labs-text"><span>Labs</span><span>Labs</span></span><span class="labs-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+    </a>
+  </nav>
+</header>
+<div id="menu-shade"></div>
+<main id="page">
+<section id="pd" class="section">
+  <div id="pd-pin">
+    <div id="pd-stage">
+      <div id="pd-meta">
+        <h1 id="pd-title" class="reveal"><span class="ln"><span>Void Tech</span></span></h1>
+        <div id="pd-left">
+          <div id="pd-desc" class="reveal"><p>A launch site for a quantum computing lab, visualising qubits as a field of collapsing light.</p><p>The site pairs scientific accuracy with a strong cinematic mood.</p></div>
+          <a id="pd-launch" class="cta" href="#" onclick="return false" data-sfx><span class="cta-dot"></span><span class="cta-text">Launch project</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+        </div>
+        <div id="pd-right" class="reveal">
+          <h4>Services</h4><p>Web Design</p><p>Web Development</p><p>3D Design</p>
+          <h4>Links</h4><a href="#" onclick="return false" class="ul" data-sfx>Live Site</a>
+        </div>
+      </div>
+      <div id="pd-track"><div class="pd-item is-video"><video src="../assets/video/v45020.mp4" muted loop playsinline preload="metadata"></video></div><div class="pd-item is-image"><img src="../assets/img/pool/1446776811953-b23d57bd21aa.jpg" alt="Void Tech visual 2" loading="lazy"></div><div class="pd-item is-video"><video src="../assets/video/v31562.mp4" muted loop playsinline preload="metadata"></video></div><div class="pd-item is-image"><img src="../assets/img/pool/1451187580459-43490279c0fa.jpg" alt="Void Tech visual 4" loading="lazy"></div>
+        <a id="pd-next" href="terra_globe.html" data-overscroll data-var="--np" data-href="terra_globe.html" data-sfx>
+          <span class="pd-next-bg" style="background-image:url(../assets/img/pool/1451187580459-43490279c0fa.jpg)"></span>
+          <h2>Terra Globe</h2>
+          <span class="pd-next-foot"><span>Next project</span><span class="pd-next-bar"><i></i></span><span class="pd-next-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></span>
+        </a>
+      </div>
+      <p id="pd-hint">Scroll to explore <span>»</span></p>
+    </div>
+  </div>
+</section>
+</main>
+<div id="scroll-indicator"><i></i></div>
+<div id="preloader" aria-hidden="true">
+  <div class="pl-bar"><i></i></div><svg class="glyph" viewBox="0 0 40 40" aria-hidden="true"><rect class="g1" x="6" y="6" width="7" height="28"/><rect class="g2" x="17" y="6" width="7" height="28"/><rect class="g3" x="27" y="6" width="7" height="28"/></svg>
+  <div class="pl-digits"><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span></div>
+</div>
+<div id="transition" aria-hidden="true"><i class="tr-a"></i><i class="tr-b"></i><div class="tr-load"></div></div>
+<div id="video-overlay" aria-hidden="true" role="dialog" aria-label="Showreel">
+  <video playsinline preload="none" src="../assets/video/v51214.mp4"></video>
+  <button id="vo-close" aria-label="Close video"><svg viewBox="0 0 16 16"><path d="M3 3l10 10M13 3 3 13" stroke="currentColor" stroke-width="1.6"/></svg></button>
+  <div id="vo-controls"><button id="vo-play">Pause</button><div id="vo-progress"><i></i></div><button id="vo-mute">Mute</button></div>
+  <div id="vo-cursor"><span>Close</span></div>
+</div>
+<script src="../assets/vendor/three.min.js"></script>
+<script src="../assets/js/core.js"></script>
+<script src="../assets/js/fluid.js"></script>
+<script src="../assets/js/project.js"></script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en" class="is-loading" data-page="about">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — NOVARA</title>
+<meta name="description" content="NOVARA designs and produces 3D storytelling, immersive websites and interactive digital experiences.">
+<meta name="theme-color" content="#f0f1fa">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<script>try{if(sessionStorage.getItem('nv-visited'))document.documentElement.classList.add('no-preload','t-in')}catch(e){}</script>
+</head>
+<body class="theme-dark">
+<header id="header">
+  <a id="logo" href="index.html" data-sfx><span class="logo-word" aria-label="NOVARA">NOVARA</span></a>
+  
+  <div id="header-right">
+    <button id="sound-btn" class="circle-btn" aria-label="Toggle sound" data-sfx><canvas width="90" height="90"></canvas></button>
+    <a id="talk-btn" class="pill pill--dark" href="mailto:hello@novara.studio" data-sfx><span class="pill-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pill-text">Let's talk</span><span class="pill-dot"></span></a>
+    <button id="menu-btn" class="pill pill--light" aria-expanded="false" aria-controls="menu" data-sfx>
+      <span class="menu-btn-labels"><span>Menu</span><span>Close</span></span><span class="menu-btn-dots"><i></i><i></i></span>
+    </button>
+  </div>
+  <nav id="menu" aria-hidden="true">
+    <div class="menu-card menu-links">
+      <a class="menu-link" href="index.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Home</span><span class="menu-link-text">Home</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link is-active" href="about.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">About us</span><span class="menu-link-text">About us</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link" href="projects.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Projects</span><span class="menu-link-text">Projects</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link" href="mailto:hello@novara.studio" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Contact</span><span class="menu-link-text">Contact</span></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+    </div>
+    <div class="menu-card menu-news">
+      <h3>Subscribe to<br>our newsletter</h3>
+      <form class="news-form" novalidate data-news="menu"><i class="news-bg"></i>
+    <input type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" data-focus-sfx>
+    <button type="submit" aria-label="Subscribe" data-sfx><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    <p class="news-msg" aria-live="polite"></p>
+  </form>
+    </div>
+    <a class="menu-card menu-talk" href="mailto:hello@novara.studio" data-sfx><span>Let's talk</span><svg viewBox="0 0 20 16"><rect x="1" y="1" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 6h10M5 10h6" stroke="currentColor" stroke-width="1.5"/></svg></a>
+    <a class="menu-card menu-labs" href="https://example.com/" target="_blank" rel="noopener" data-sfx>
+      <span class="labs-icon"><i></i><i></i><b></b></span><span class="labs-text"><span>Labs</span><span>Labs</span></span><span class="labs-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+    </a>
+  </nav>
+</header>
+<div id="menu-shade"></div>
+<main id="page">
+<section id="who" class="section">
+  <div id="who-pin">
+    <div id="who-stage">
+      <div id="who-bg"><img src="assets/img/pool/1477346611705-65d1883cee1e.jpg" alt=""><i class="who-beam"></i></div>
+      <canvas id="who-canvas"></canvas>
+      <div class="about-crosses"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div>
+      <div id="who-big"><span><b style="--li:0">N</b><b style="--li:1">O</b><b style="--li:2">V</b><b style="--li:3">A</b><b style="--li:4">R</b><b style="--li:5">A</b></span><p><span class="w" style="--wi:0"><span>Scroll</span></span> <span class="w" style="--wi:1"><span>to</span></span> <span class="w" style="--wi:2"><span>explore</span></span></p></div>
+      <div id="who-left"><span>We are</span><span>NOVARA</span><span>A creative</span><span><em>Production studio</em></span></div>
+      <div id="who-right"><span><em>Crafting unique</em></span><span><em>digital experiences</em></span></div>
+      <p id="who-top" class="fade-words"><em><span class="w" style="--wi:0"><span>A</span></span> <span class="w" style="--wi:1"><span>worldwide</span></span> <span class="w" style="--wi:2"><span>team</span></span></em> <span class="w" style="--wi:0"><span>of</span></span><br><span class="w" style="--wi:0"><span>specialists</span></span> <span class="w" style="--wi:1"><span>in</span></span> <span class="w" style="--wi:2"><span>design,</span></span><br><span class="w" style="--wi:0"><span>motion,</span></span> <span class="w" style="--wi:1"><span>3D,</span></span> <span class="w" style="--wi:2"><span>and</span></span> <span class="w" style="--wi:3"><span>technology</span></span></p>
+      <p id="who-bottom" class="fade-words"><span class="w" style="--wi:0"><span>working</span></span> <span class="w" style="--wi:1"><span>together</span></span> <span class="w" style="--wi:2"><span>to</span></span><br><span class="w" style="--wi:0"><span>turn</span></span> <span class="w" style="--wi:1"><span>ambitious</span></span> <span class="w" style="--wi:2"><span>ideas</span></span> <span class="w" style="--wi:3"><span>into</span></span><br><span class="w" style="--wi:0"><span>immersive</span></span> <span class="w" style="--wi:1"><span>digital</span></span> <span class="w" style="--wi:2"><span>experiences.</span></span></p>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="section" data-count="7">
+  <div id="team-pin">
+    <div id="team-stage">
+      <div id="team-faces"><img class="face is-active" src="assets/img/pool/1534528741775-53994a69daeb.jpg" alt="Mara Okafor"><img class="face" src="assets/img/pool/1506794778202-cad84cf45f1d.jpg" alt="Theo Lindqvist"><img class="face" src="assets/img/pool/1531746020798-e6953c6e8e04.jpg" alt="Ines Moreau"><img class="face" src="assets/img/pool/1500648767791-00dcc994a43e.jpg" alt="Kenji Arata"><img class="face" src="assets/img/pool/1544005313-94ddf0286df2.jpg" alt="Lucia Ferraz"><img class="face" src="assets/img/pool/1507003211169-0a1dd7228f2d.jpg" alt="Omar Haddad"><img class="face" src="assets/img/pool/1438761681033-6461ffad8d80.jpg" alt="Pixel"><i class="face-scan"></i></div>
+      <div class="team-rain" aria-hidden="true"></div>
+      <h2 id="team-title">Team</h2>
+      <div class="compass compass--top"><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+      <div class="compass compass--bottom"><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="long"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+      <button id="team-next" aria-label="Next team member" data-sfx><span class="tn-ico"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></button>
+      <div id="team-info">
+        <div class="team-num"><span>[</span><span id="team-num">001</span><span>]</span></div>
+        <p id="team-name">Mara Okafor</p>
+        <p id="team-job">Cofounder &<br>Creative Director</p>
+        <div id="team-progress"><i></i></div>
+      </div>
+      <div id="team-letter"><span class="tl-wrap is-active"><span class="px" data-l="M"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i></span></span><span class="tl-wrap"><span class="px" data-l="T"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i></span></span><span class="tl-wrap"><span class="px" data-l="I"><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span></span><span class="tl-wrap"><span class="px" data-l="K"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i></span></span><span class="tl-wrap"><span class="px" data-l="L"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></span><span class="tl-wrap"><span class="px" data-l="O"><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span></span><span class="tl-wrap"><span class="px" data-l="P"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></span></div>
+      <p id="team-desc">We combine different disciplines into one creative production process, moving ideas from concept to execution with clarity and craft. The result is digital work that feels distinctive, technically refined and built to last.</p>
+      <p id="team-tip">Swipe to change</p>
+    </div>
+  </div>
+  <script type="application/json" id="team-data">[{"name":"Mara Okafor","job":["Cofounder &","Creative Director"],"img":"assets/img/pool/1534528741775-53994a69daeb.jpg","letter":"M"},{"name":"Theo Lindqvist","job":["Cofounder &","Technical Director"],"img":"assets/img/pool/1506794778202-cad84cf45f1d.jpg","letter":"T"},{"name":"Ines Moreau","job":["Art","Director"],"img":"assets/img/pool/1531746020798-e6953c6e8e04.jpg","letter":"I"},{"name":"Kenji Arata","job":["Creative","Developer"],"img":"assets/img/pool/1500648767791-00dcc994a43e.jpg","letter":"K"},{"name":"Lucia Ferraz","job":["3D Motion","Designer"],"img":"assets/img/pool/1544005313-94ddf0286df2.jpg","letter":"L"},{"name":"Omar Haddad","job":["Executive","Producer"],"img":"assets/img/pool/1507003211169-0a1dd7228f2d.jpg","letter":"O"},{"name":"Pixel","job":["Studio","Morale Officer"],"img":"assets/img/pool/1438761681033-6461ffad8d80.jpg","letter":"P"}]</script>
+</section>
+
+<section id="brands" class="section">
+  <div class="brands-head">
+    <h2 class="brands-title"><span class="w" style="--wi:0"><span>Brands</span></span> <span class="w" style="--wi:1"><span>we</span></span> <span class="w" style="--wi:2"><span>work</span></span> <span class="w" style="--wi:3"><span>with</span></span></h2>
+    <p class="brands-desc"><span class="ln"><span>Trusted by global brands,</span></span><span class="ln"><span>cultural institutions, and</span></span><span class="ln"><span>forward thinking teams.</span></span></p>
+  </div>
+  <div id="brand-rows"><div class="brand-row" data-dir="1"><div class="brand-track"><span class="brand-logo bl-serif">HALDEN</span><span class="brand-logo bl-light">Meridian</span><span class="brand-logo bl-round">orbis</span><span class="brand-logo bl-wide">KŌTO</span><span class="brand-logo bl-italic">Vantage</span><span class="brand-logo bl-serif">Lumière</span><span class="brand-logo bl-serif">HALDEN</span><span class="brand-logo bl-light">Meridian</span><span class="brand-logo bl-round">orbis</span><span class="brand-logo bl-wide">KŌTO</span><span class="brand-logo bl-italic">Vantage</span><span class="brand-logo bl-serif">Lumière</span><span class="brand-logo bl-serif">HALDEN</span><span class="brand-logo bl-light">Meridian</span><span class="brand-logo bl-round">orbis</span><span class="brand-logo bl-wide">KŌTO</span><span class="brand-logo bl-italic">Vantage</span><span class="brand-logo bl-serif">Lumière</span></div></div><div class="brand-row" data-dir="-1"><div class="brand-track"><span class="brand-logo bl-wide">NORTHWIND</span><span class="brand-logo bl-mono">pixelforge</span><span class="brand-logo bl-bold">Atlas&amp;Co</span><span class="brand-logo bl-light">SORA</span><span class="brand-logo bl-italic">Fennec</span><span class="brand-logo bl-wide">NORTHWIND</span><span class="brand-logo bl-mono">pixelforge</span><span class="brand-logo bl-bold">Atlas&amp;Co</span><span class="brand-logo bl-light">SORA</span><span class="brand-logo bl-italic">Fennec</span><span class="brand-logo bl-wide">NORTHWIND</span><span class="brand-logo bl-mono">pixelforge</span><span class="brand-logo bl-bold">Atlas&amp;Co</span><span class="brand-logo bl-light">SORA</span><span class="brand-logo bl-italic">Fennec</span></div></div><div class="brand-row" data-dir="1"><div class="brand-track"><span class="brand-logo bl-bold">QUANTA</span><span class="brand-logo bl-round">brightline</span><span class="brand-logo bl-serif">Ostra</span><span class="brand-logo bl-wide">VELO</span><span class="brand-logo bl-mono">Monolith</span><span class="brand-logo bl-bold">QUANTA</span><span class="brand-logo bl-round">brightline</span><span class="brand-logo bl-serif">Ostra</span><span class="brand-logo bl-wide">VELO</span><span class="brand-logo bl-mono">Monolith</span><span class="brand-logo bl-bold">QUANTA</span><span class="brand-logo bl-round">brightline</span><span class="brand-logo bl-serif">Ostra</span><span class="brand-logo bl-wide">VELO</span><span class="brand-logo bl-mono">Monolith</span></div></div></div>
+</section>
+
+<section id="awards" class="section">
+  <div class="awards-bg" aria-hidden="true"><span>Award winning</span><span>Multidisciplinary</span><span>Creative studio</span></div>
+  <div class="award-cat">
+    <div class="award-head"><h3>Awards</h3><span class="award-count"><b>✻</b> 58</span></div>
+    <div class="award-item"><div class="award-row"><p>Webverse</p><p class="mono">001</p><p>Site of the Year</p></div><div class="award-row"><p></p><p class="mono">001</p><p>Developer Site of the Year</p></div><div class="award-row"><p></p><p class="mono">003</p><p>Site of the Month</p></div><div class="award-row"><p></p><p class="mono">012</p><p>Site of the Day</p></div><div class="award-row"><p></p><p class="mono">018</p><p>Honorable Mention</p></div><i class="award-line"></i></div><div class="award-item"><div class="award-row"><p>FDX</p><p class="mono">001</p><p>Site of the Year</p></div><div class="award-row"><p></p><p class="mono">002</p><p>Site of the Month</p></div><div class="award-row"><p></p><p class="mono">014</p><p>Site of the Day</p></div><i class="award-line"></i></div><div class="award-item"><div class="award-row"><p>CSS Craft</p><p class="mono">001</p><p>Site of the Year</p></div><div class="award-row"><p></p><p class="mono">001</p><p>Agency of the Year</p></div><i class="award-line"></i></div><div class="award-item"><div class="award-row"><p>Digital Pulse</p><p class="mono">002</p><p>Winner</p></div><div class="award-row"><p></p><p class="mono">003</p><p>Nominee</p></div><i class="award-line"></i></div><div class="award-item"><div class="award-row"><p>Lumen Awards</p><p class="mono">001</p><p>Gold Winner</p></div><i class="award-line"></i></div><div class="award-item"><div class="award-row"><p>Design Drum</p><p class="mono">001</p><p>Best in Interactive Design</p></div><i class="award-line"></i></div>
+  </div>
+  <div class="award-cat">
+    <div class="award-head"><h3>Articles</h3><span class="award-count"><b>✕</b> 03</span></div>
+    <div class="award-item"><div class="award-row award-row--wide"><p></p><p></p><a href="#" class="ul" onclick="return false">Velocity Journal — Dreaming in Motion</a></div><div class="award-row award-row--wide"><p></p><p></p><a href="#" class="ul" onclick="return false">Forma Magazine — Studios to Watch</a></div><div class="award-row award-row--wide"><p></p><p></p><a href="#" class="ul" onclick="return false">Stage North — Opera in Light</a></div><i class="award-line"></i></div>
+  </div>
+  <div class="award-cat">
+    <div class="award-head"><h3>Talks</h3><span class="award-count"><b>⠿</b> 5</span></div>
+    <div class="award-item"><div class="award-row award-row--talk"><p></p><p>Future Design Exchange</p><p>Oct 2025 Lisbon</p></div><div class="award-row award-row--talk"><p></p><p>Webverse Conf</p><p>Oct 2024 Amsterdam</p></div><div class="award-row award-row--talk is-old"><p></p><p>Pixel Festival</p><p>Sep 2024 Ghent</p></div><div class="award-row award-row--talk is-old"><p></p><p>Webverse Conf</p><p>Oct 2023 Amsterdam</p></div><div class="award-row award-row--talk is-old"><p></p><p>Grow Lisbon</p><p>Nov 2019 Lisbon</p></div><i class="award-line"></i></div>
+  </div>
+</section>
+
+<section id="expertise" class="section">
+  <div id="exp-pin">
+    <div id="exp-stage">
+      <div id="exp-studio" aria-hidden="true">Studio</div>
+      <h2 id="exp-title"><span>Area of</span><span>Expertise</span></h2>
+      <div id="exp-sub"><p><span class="ln"><span>Multidisciplinary expertise across</span></span><span class="ln"><span>strategy, creative, technology, and</span></span><span class="ln"><span>production.</span></span></p><div class="exp-mini"><span>S</span><span>C</span><span>T</span><span>P</span></div></div>
+      <svg id="exp-line" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true"><path d="M1500 -60 C 1200 40, 1000 120, 820 160 S 380 150, 120 420"/></svg>
+      <div id="exp-cards"><div class="card" style="--i:0"><div class="card-inner">
+        <div class="card-back"><div class="card-back-art"><span>N</span></div></div>
+        <div class="card-front"><div class="card-head"><p>Strategy</p><span class="px" data-l="S"><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span></div><ul><li>Digital Experience Strategy</li><li>Technology Strategy</li><li>Creative Direction</li><li>Discovery</li><li>Research</li></ul><div class="card-head card-head--flip"><p>Strategy</p><span class="px" data-l="S"><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></span></div></div>
+      </div></div><div class="card" style="--i:1"><div class="card-inner">
+        <div class="card-back"><div class="card-back-art"><span>N</span></div></div>
+        <div class="card-front"><div class="card-head"><p>Creative</p><span class="px" data-l="C"><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div><ul><li>Art Direction</li><li>UX/UI Design</li><li>Motion Design</li><li>Interactive Design</li><li>Illustration</li></ul><div class="card-head card-head--flip"><p>Creative</p><span class="px" data-l="C"><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div></div>
+      </div></div><div class="card" style="--i:2"><div class="card-inner">
+        <div class="card-back"><div class="card-back-art"><span>N</span></div></div>
+        <div class="card-front"><div class="card-head"><p>Tech</p><span class="px" data-l="T"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i></span></div><ul><li>WebGL Development</li><li>Front End Development</li><li>Unity/Unreal</li><li>Interactive Installations</li><li>AR and VR Experiences</li></ul><div class="card-head card-head--flip"><p>Tech</p><span class="px" data-l="T"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i></span></div></div>
+      </div></div><div class="card" style="--i:3"><div class="card-inner">
+        <div class="card-back"><div class="card-back-art"><span>N</span></div></div>
+        <div class="card-front"><div class="card-head"><p>Production</p><span class="px" data-l="P"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></div><ul><li>Procedural Modeling</li><li>3D Asset Creation</li><li>3D Optimization</li><li>Animation</li><li>3D Pipeline Development</li></ul><div class="card-head card-head--flip"><p>Production</p><span class="px" data-l="P"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></div></div>
+      </div></div></div>
+    </div>
+  </div>
+</section>
+<section id="end" class="end end--blue">
+  <div class="end-sticky">
+    <canvas class="end-canvas"></canvas>
+    <canvas class="end-astro" aria-hidden="true"></canvas>
+    <div class="end-stickers" aria-hidden="true"></div>
+    <div class="end-content">
+      <div class="end-crosses"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div>
+      <p class="end-sub"><span class="ln"><span>Is your big idea ready to go wild?</span></span></p>
+      <a class="end-title" href="mailto:hello@novara.studio" data-sfx>
+        <span class="end-line"><span class="r" style="--i:0"><span>L</span><span>L</span></span><span class="r" style="--i:1"><span>e</span><span>e</span></span><span class="r" style="--i:2"><span>t</span><span>t</span></span><span class="r" style="--i:3"><span>'</span><span>'</span></span><span class="r" style="--i:4"><span>s</span><span>s</span></span><span class="r sp"> </span><span class="r" style="--i:6"><span>w</span><span>w</span></span><span class="r" style="--i:7"><span>o</span><span>o</span></span><span class="r" style="--i:8"><span>r</span><span>r</span></span><span class="r" style="--i:9"><span>k</span><span>k</span></span></span>
+        <span class="end-line"><span class="r" style="--i:0"><span>t</span><span>t</span></span><span class="r" style="--i:1"><span>o</span><span>o</span></span><span class="r" style="--i:2"><span>g</span><span>g</span></span><span class="r" style="--i:3"><span>e</span><span>e</span></span><span class="r" style="--i:4"><span>t</span><span>t</span></span><span class="r" style="--i:5"><span>h</span><span>h</span></span><span class="r" style="--i:6"><span>e</span><span>e</span></span><span class="r" style="--i:7"><span>r</span><span>r</span></span><span class="r" style="--i:8"><span>!</span><span>!</span></span></span>
+        <i class="end-deco end-deco--t"></i><i class="end-deco end-deco--bl"></i><i class="end-deco end-deco--br"></i>
+      </a>
+    </div>
+    <div class="end-bottom"><span class="end-arrows"><i></i><i></i></span><span class="end-bottom-text"><span>Continue to scroll</span><span>Continue to scroll</span></span><span class="end-arrows"><i></i><i></i></span></div>
+  </div>
+</section>
+<footer id="footer">
+  <div class="footer-middle">
+    <div class="footer-contact">
+      <a class="footer-address" href="https://maps.google.com/" target="_blank" rel="noopener"><span class="fl"><span>Studio 4</span></span><span class="fl"><span>12 Rua das Flores</span></span><span class="fl"><span>Lisbon, 1200-195</span></span><span class="fl"><span>Portugal</span></span></a>
+      <div class="footer-socials"><a class="fl soc" href="https://x.com/" target="_blank" rel="noopener" data-sfx><span class="soc-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span><span class="soc-text">Twitter / X</span></a><a class="fl soc" href="https://instagram.com/" target="_blank" rel="noopener" data-sfx><span class="soc-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span><span class="soc-text">Instagram</span></a><a class="fl soc" href="https://linkedin.com/" target="_blank" rel="noopener" data-sfx><span class="soc-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span><span class="soc-text">Linkedin</span></a></div>
+      <div class="footer-mail"><p class="fl"><span>General enquiries</span></p><a class="fl ul" href="mailto:hello@novara.studio" data-sfx><span>hello@novara.studio</span></a></div>
+      <div class="footer-mail"><p class="fl"><span>New business</span></p><a class="fl ul" href="mailto:studio@novara.studio" data-sfx><span>studio@novara.studio</span></a></div>
+    </div>
+    <div class="footer-news">
+      <h3><span class="fl"><span>Subscribe to</span></span><span class="fl"><span>our newsletter</span></span></h3>
+      <form class="news-form" novalidate data-news="footer"><i class="news-bg"></i>
+    <input type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" data-focus-sfx>
+    <button type="submit" aria-label="Subscribe" data-sfx><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    <p class="news-msg" aria-live="polite"></p>
+  </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>©2026 NOVARA Creative Studio</p>
+    <a class="ul" href="https://example.com/" target="_blank" rel="noopener">R&amp;D: lab.novara.studio</a>
+    <p>Built by NOVARA with <span class="heart">♥</span></p>
+    <button id="up-btn" aria-label="Back to top" data-sfx><span class="up-ico"><svg viewBox="0 0 16 16"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><svg viewBox="0 0 16 16"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></button>
+  </div>
+</footer>
+<section id="scroll-nav" data-overscroll data-var="--snp" data-href="projects.html">
+  <p class="sn-sub">Keep scrolling<br>to learn more</p>
+  <a class="sn-main" href="projects.html" data-sfx>
+    <span class="sn-text">Our projects</span>
+    <span class="sn-next"><span>Next page</span><span class="sn-bar"><i></i></span><span class="sn-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></span>
+  </a>
+  <div class="sn-crosses"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div>
+</section>
+</main>
+<div id="scroll-indicator"><i></i></div>
+<div id="preloader" aria-hidden="true">
+  <div class="pl-bar"><i></i></div><svg class="glyph" viewBox="0 0 40 40" aria-hidden="true"><rect class="g1" x="6" y="6" width="7" height="28"/><rect class="g2" x="17" y="6" width="7" height="28"/><rect class="g3" x="27" y="6" width="7" height="28"/></svg>
+  <div class="pl-digits"><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span></div>
+</div>
+<div id="transition" aria-hidden="true"><i class="tr-a"></i><i class="tr-b"></i><div class="tr-load"></div></div>
+<div id="video-overlay" aria-hidden="true" role="dialog" aria-label="Showreel">
+  <video playsinline preload="none" src="assets/video/v51214.mp4"></video>
+  <button id="vo-close" aria-label="Close video"><svg viewBox="0 0 16 16"><path d="M3 3l10 10M13 3 3 13" stroke="currentColor" stroke-width="1.6"/></svg></button>
+  <div id="vo-controls"><button id="vo-play">Pause</button><div id="vo-progress"><i></i></div><button id="vo-mute">Mute</button></div>
+  <div id="vo-cursor"><span>Close</span></div>
+</div>
+<script src="assets/vendor/three.min.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/fluid.js"></script>
+<script src="assets/js/about.js"></script>
+<script src="assets/js/end.js"></script>
+</body>
+</html>

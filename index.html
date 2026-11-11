@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en" class="is-loading" data-page="home">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NOVARA — 3D and Interactive Web Studio</title>
+<meta name="description" content="NOVARA designs and produces 3D storytelling, immersive websites and interactive digital experiences.">
+<meta name="theme-color" content="#f0f1fa">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<script>try{if(sessionStorage.getItem('nv-visited'))document.documentElement.classList.add('no-preload','t-in')}catch(e){}</script>
+</head>
+<body>
+<header id="header">
+  <a id="logo" href="index.html" data-sfx><span class="logo-word" aria-label="NOVARA">NOVARA</span></a>
+  
+  <div id="header-right">
+    <button id="sound-btn" class="circle-btn" aria-label="Toggle sound" data-sfx><canvas width="90" height="90"></canvas></button>
+    <a id="talk-btn" class="pill pill--dark" href="mailto:hello@novara.studio" data-sfx><span class="pill-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pill-text">Let's talk</span><span class="pill-dot"></span></a>
+    <button id="menu-btn" class="pill pill--light" aria-expanded="false" aria-controls="menu" data-sfx>
+      <span class="menu-btn-labels"><span>Menu</span><span>Close</span></span><span class="menu-btn-dots"><i></i><i></i></span>
+    </button>
+  </div>
+  <nav id="menu" aria-hidden="true">
+    <div class="menu-card menu-links">
+      <a class="menu-link is-active" href="index.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Home</span><span class="menu-link-text">Home</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link" href="about.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">About us</span><span class="menu-link-text">About us</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link" href="projects.html" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Projects</span><span class="menu-link-text">Projects</span></span><span class="menu-link-dot"></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+      <a class="menu-link" href="mailto:hello@novara.studio" data-sfx><span class="menu-link-bg"></span><span class="menu-link-inner"><span class="menu-link-text">Contact</span><span class="menu-link-text">Contact</span></span><span class="menu-link-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+    </div>
+    <div class="menu-card menu-news">
+      <h3>Subscribe to<br>our newsletter</h3>
+      <form class="news-form" novalidate data-news="menu"><i class="news-bg"></i>
+    <input type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" data-focus-sfx>
+    <button type="submit" aria-label="Subscribe" data-sfx><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    <p class="news-msg" aria-live="polite"></p>
+  </form>
+    </div>
+    <a class="menu-card menu-talk" href="mailto:hello@novara.studio" data-sfx><span>Let's talk</span><svg viewBox="0 0 20 16"><rect x="1" y="1" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 6h10M5 10h6" stroke="currentColor" stroke-width="1.5"/></svg></a>
+    <a class="menu-card menu-labs" href="https://example.com/" target="_blank" rel="noopener" data-sfx>
+      <span class="labs-icon"><i></i><i></i><b></b></span><span class="labs-text"><span>Labs</span><span>Labs</span></span><span class="labs-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+    </a>
+  </nav>
+</header>
+<div id="menu-shade"></div>
+<main id="page">
+<section id="hero" class="section">
+  <h1 id="hero-title" class="rot"><span class="lw"><span class="w" style="--wi:0"><span>We</span></span> <span class="w" style="--wi:1"><span>create</span></span> <span class="w" style="--wi:2"><span>3D</span></span> <span class="w" style="--wi:3"><span>visual</span></span> <span class="w" style="--wi:4"><span>storytelling</span></span></span><span class="lw"><span class="w" style="--wi:5"><span>and</span></span> <span class="w" style="--wi:6"><span>interactive</span></span> <span class="w" style="--wi:7"><span>web</span></span> <span class="w" style="--wi:8"><span>experiences</span></span></span><span class="lw"><span class="w" style="--wi:10"><span>that</span></span> <span class="w" style="--wi:11"><span>help</span></span> <span class="w" style="--wi:12"><span>brands</span></span> <span class="w" style="--wi:13"><span>stand</span></span> <span class="w" style="--wi:14"><span>out</span></span></span></h1>
+  <div id="hero-visual"><canvas id="hero-canvas"></canvas></div>
+  <div id="hero-scroll"><div class="cross-row"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div><p><span class="w" style="--wi:0"><span>Scroll</span></span> <span class="w" style="--wi:1"><span>to</span></span> <span class="w" style="--wi:2"><span>explore</span></span></p></div>
+</section>
+
+<section id="reel" class="section">
+  <h2 id="reel-title" class="reveal"><span class="ln reel-l1"><span>Bold Ideas,</span></span><span class="ln"><span>Brought to Life</span></span></h2>
+  <div id="reel-content">
+    <p id="reel-desc" class="reveal-words rot"><span class="w" style="--wi:0"><span>We</span></span> <span class="w" style="--wi:1"><span>blend</span></span> <span class="w" style="--wi:2"><span>design,</span></span> <span class="w" style="--wi:3"><span>motion,</span></span> <span class="w" style="--wi:4"><span>3D</span></span> <span class="w" style="--wi:5"><span>and</span></span> <span class="w" style="--wi:6"><span>engineering</span></span> <span class="w" style="--wi:7"><span>to</span></span> <span class="w" style="--wi:8"><span>craft</span></span> <span class="w" style="--wi:9"><span>digital</span></span> <span class="w" style="--wi:10"><span>experiences</span></span> <span class="w" style="--wi:11"><span>that</span></span> <span class="w" style="--wi:12"><span>look</span></span> <span class="w" style="--wi:13"><span>remarkable</span></span> <span class="w" style="--wi:14"><span>and</span></span> <span class="w" style="--wi:15"><span>run</span></span> <span class="w" style="--wi:16"><span>flawlessly.</span></span> <span class="w" style="--wi:17"><span>From</span></span> <span class="w" style="--wi:18"><span>product</span></span> <span class="w" style="--wi:19"><span>launches</span></span> <span class="w" style="--wi:20"><span>to</span></span> <span class="w" style="--wi:21"><span>immersive</span></span> <span class="w" style="--wi:22"><span>brand</span></span> <span class="w" style="--wi:23"><span>universes,</span></span> <span class="w" style="--wi:24"><span>we</span></span> <span class="w" style="--wi:25"><span>build</span></span> <span class="w" style="--wi:26"><span>work</span></span> <span class="w" style="--wi:27"><span>that</span></span> <span class="w" style="--wi:28"><span>earns</span></span> <span class="w" style="--wi:29"><span>attention</span></span> <span class="w" style="--wi:30"><span>and</span></span> <span class="w" style="--wi:31"><span>invites</span></span> <span class="w" style="--wi:32"><span>people</span></span> <span class="w" style="--wi:33"><span>to</span></span> <span class="w" style="--wi:34"><span>play.</span></span></p>
+    <a id="reel-cta" class="cta" href="about.html" data-sfx><span class="cta-dot"></span><span class="cta-text">Our approach</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+  </div>
+  <div id="reel-thumb-slot"></div>
+  <svg id="reel-line" class="snake snake--blue" aria-hidden="true"><path class="s-base"/><path class="s-hi"/></svg>
+  <div id="reel-pin">
+    <div id="reel-stage">
+      <canvas id="reel-canvas"></canvas>
+      <video id="reel-src" src="assets/video/v51214.mp4" muted loop playsinline preload="auto"></video>
+      <div id="reel-play"><span class="rp-word"><span class="r" style="--i:0"><span>P</span><span>P</span></span><span class="r" style="--i:1"><span>l</span><span>l</span></span><span class="r" style="--i:2"><span>a</span><span>a</span></span><span class="r" style="--i:3"><span>y</span><span>y</span></span></span><span id="reel-btn"><i></i><svg viewBox="0 0 16 16"><path d="M5 3.5v9l7.5-4.5z" fill="currentColor"/></svg></span><span class="rp-word"><span class="r" style="--i:0"><span>R</span><span>R</span></span><span class="r" style="--i:1"><span>e</span><span>e</span></span><span class="r" style="--i:2"><span>e</span><span>e</span></span><span class="r" style="--i:3"><span>l</span><span>l</span></span></span></div>
+      <div id="reel-frame" data-sfx role="button" tabindex="0" aria-label="Play showreel">
+        <div class="reel-deco reel-deco--top"><div class="cross-row"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div><div class="reel-marquee"><span><b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel </span></div></div>
+        <div class="reel-deco reel-deco--bottom"><div class="cross-row"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div><div class="reel-marquee"><span><b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel <b>▶▶▶</b> Play reel </span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="featured" class="section">
+  <div class="featured-top">
+    <h2 class="big-title reveal"><span class="ln"><span>Featured Work</span></span></h2>
+    <p class="featured-note reveal"><span class="ln"><span>A selection of immersive digital experiences</span></span><span class="ln"><span>crafted for ambitious brands and forward</span></span><span class="ln"><span>thinking teams.</span></span></p>
+  </div>
+  <div class="project-list"><a class="project-item" href="projects/halo_drift.html" data-sfx data-color="#ff6a1a">
+  <span class="pi-media"><img src="assets/img/pool/1618005182384-a83a8bd57fbe.jpg" alt="Halo Drift preview" loading="lazy"></span>
+  <span class="pi-tags">concept • web • design • development • 3d • animation</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>H</span><span>H</span></span><span class="r" style="--i:1"><span>a</span><span>a</span></span><span class="r" style="--i:2"><span>l</span><span>l</span></span><span class="r" style="--i:3"><span>o</span><span>o</span></span><span class="r sp"> </span><span class="r" style="--i:5"><span>D</span><span>D</span></span><span class="r" style="--i:6"><span>r</span><span>r</span></span><span class="r" style="--i:7"><span>i</span><span>i</span></span><span class="r" style="--i:8"><span>f</span><span>f</span></span><span class="r" style="--i:9"><span>t</span><span>t</span></span></span></span>
+</a>
+<a class="project-item" href="projects/aurora_motion.html" data-sfx data-color="#ff4fa3">
+  <span class="pi-media"><img src="assets/img/pool/1636955779321-819753cd1741.jpg" alt="Aurora Motion preview" loading="lazy"></span>
+  <span class="pi-tags">concept • web • design • development • 3d • animation</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>A</span><span>A</span></span><span class="r" style="--i:1"><span>u</span><span>u</span></span><span class="r" style="--i:2"><span>r</span><span>r</span></span><span class="r" style="--i:3"><span>o</span><span>o</span></span><span class="r" style="--i:4"><span>r</span><span>r</span></span><span class="r" style="--i:5"><span>a</span><span>a</span></span><span class="r sp"> </span><span class="r" style="--i:7"><span>M</span><span>M</span></span><span class="r" style="--i:8"><span>o</span><span>o</span></span><span class="r" style="--i:9"><span>t</span><span>t</span></span><span class="r" style="--i:10"><span>i</span><span>i</span></span><span class="r" style="--i:11"><span>o</span><span>o</span></span><span class="r" style="--i:12"><span>n</span><span>n</span></span></span></span>
+</a>
+<a class="project-item" href="projects/nimbus_ai.html" data-sfx data-color="#5b8cff">
+  <span class="pi-media"><img src="assets/img/pool/1580927752452-89d86da3fa0a.jpg" alt="Nimbus AI preview" loading="lazy"></span>
+  <span class="pi-tags">web • design • development • 3d</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>N</span><span>N</span></span><span class="r" style="--i:1"><span>i</span><span>i</span></span><span class="r" style="--i:2"><span>m</span><span>m</span></span><span class="r" style="--i:3"><span>b</span><span>b</span></span><span class="r" style="--i:4"><span>u</span><span>u</span></span><span class="r" style="--i:5"><span>s</span><span>s</span></span><span class="r sp"> </span><span class="r" style="--i:7"><span>A</span><span>A</span></span><span class="r" style="--i:8"><span>I</span><span>I</span></span></span></span>
+</a>
+<a class="project-item" href="projects/verdant_grove.html" data-sfx data-color="#7ccf5a">
+  <span class="pi-media"><img src="assets/img/pool/1441974231531-c6227db76b6e.jpg" alt="Verdant Grove preview" loading="lazy"></span>
+  <span class="pi-tags">web • design • development • 3d • animation</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>V</span><span>V</span></span><span class="r" style="--i:1"><span>e</span><span>e</span></span><span class="r" style="--i:2"><span>r</span><span>r</span></span><span class="r" style="--i:3"><span>d</span><span>d</span></span><span class="r" style="--i:4"><span>a</span><span>a</span></span><span class="r" style="--i:5"><span>n</span><span>n</span></span><span class="r" style="--i:6"><span>t</span><span>t</span></span><span class="r sp"> </span><span class="r" style="--i:8"><span>G</span><span>G</span></span><span class="r" style="--i:9"><span>r</span><span>r</span></span><span class="r" style="--i:10"><span>o</span><span>o</span></span><span class="r" style="--i:11"><span>v</span><span>v</span></span><span class="r" style="--i:12"><span>e</span><span>e</span></span></span></span>
+</a>
+<a class="project-item" href="projects/peakswap.html" data-sfx data-color="#8fd14f">
+  <span class="pi-media"><img src="assets/img/pool/1506905925346-21bda4d32df4.jpg" alt="Peakswap preview" loading="lazy"></span>
+  <span class="pi-tags">concept • web • design • development • 3d • animation</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>P</span><span>P</span></span><span class="r" style="--i:1"><span>e</span><span>e</span></span><span class="r" style="--i:2"><span>a</span><span>a</span></span><span class="r" style="--i:3"><span>k</span><span>k</span></span><span class="r" style="--i:4"><span>s</span><span>s</span></span><span class="r" style="--i:5"><span>w</span><span>w</span></span><span class="r" style="--i:6"><span>a</span><span>a</span></span><span class="r" style="--i:7"><span>p</span><span>p</span></span></span></span>
+</a>
+<a class="project-item" href="projects/velocity_dream_engine.html" data-sfx data-color="#ff3355">
+  <span class="pi-media"><img src="assets/img/pool/1541701494587-cb58502866ab.jpg" alt="Velocity: Dream Engine preview" loading="lazy"></span>
+  <span class="pi-tags">concept • 3D illustration • mograph • video</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>V</span><span>V</span></span><span class="r" style="--i:1"><span>e</span><span>e</span></span><span class="r" style="--i:2"><span>l</span><span>l</span></span><span class="r" style="--i:3"><span>o</span><span>o</span></span><span class="r" style="--i:4"><span>c</span><span>c</span></span><span class="r" style="--i:5"><span>i</span><span>i</span></span><span class="r" style="--i:6"><span>t</span><span>t</span></span><span class="r" style="--i:7"><span>y</span><span>y</span></span><span class="r" style="--i:8"><span>:</span><span>:</span></span><span class="r sp"> </span><span class="r" style="--i:10"><span>D</span><span>D</span></span><span class="r" style="--i:11"><span>r</span><span>r</span></span><span class="r" style="--i:12"><span>e</span><span>e</span></span><span class="r" style="--i:13"><span>a</span><span>a</span></span><span class="r" style="--i:14"><span>m</span><span>m</span></span><span class="r sp"> </span><span class="r" style="--i:16"><span>E</span><span>E</span></span><span class="r" style="--i:17"><span>n</span><span>n</span></span><span class="r" style="--i:18"><span>g</span><span>g</span></span><span class="r" style="--i:19"><span>i</span><span>i</span></span><span class="r" style="--i:20"><span>n</span><span>n</span></span><span class="r" style="--i:21"><span>e</span><span>e</span></span></span></span>
+</a>
+<a class="project-item" href="projects/digital_twin.html" data-sfx data-color="#8a7dff">
+  <span class="pi-media"><img src="assets/img/pool/1534528741775-53994a69daeb.jpg" alt="Digital Twin preview" loading="lazy"></span>
+  <span class="pi-tags">web • design • development • 3d</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>D</span><span>D</span></span><span class="r" style="--i:1"><span>i</span><span>i</span></span><span class="r" style="--i:2"><span>g</span><span>g</span></span><span class="r" style="--i:3"><span>i</span><span>i</span></span><span class="r" style="--i:4"><span>t</span><span>t</span></span><span class="r" style="--i:5"><span>a</span><span>a</span></span><span class="r" style="--i:6"><span>l</span><span>l</span></span><span class="r sp"> </span><span class="r" style="--i:8"><span>T</span><span>T</span></span><span class="r" style="--i:9"><span>w</span><span>w</span></span><span class="r" style="--i:10"><span>i</span><span>i</span></span><span class="r" style="--i:11"><span>n</span><span>n</span></span></span></span>
+</a>
+<a class="project-item" href="projects/orbit_spatial_echo.html" data-sfx data-color="#b06bff">
+  <span class="pi-media"><img src="assets/img/pool/1593508512255-86ab42a8e620.jpg" alt="Orbit: Spatial Echo preview" loading="lazy"></span>
+  <span class="pi-tags">web • design • development • 3d</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>O</span><span>O</span></span><span class="r" style="--i:1"><span>r</span><span>r</span></span><span class="r" style="--i:2"><span>b</span><span>b</span></span><span class="r" style="--i:3"><span>i</span><span>i</span></span><span class="r" style="--i:4"><span>t</span><span>t</span></span><span class="r" style="--i:5"><span>:</span><span>:</span></span><span class="r sp"> </span><span class="r" style="--i:7"><span>S</span><span>S</span></span><span class="r" style="--i:8"><span>p</span><span>p</span></span><span class="r" style="--i:9"><span>a</span><span>a</span></span><span class="r" style="--i:10"><span>t</span><span>t</span></span><span class="r" style="--i:11"><span>i</span><span>i</span></span><span class="r" style="--i:12"><span>a</span><span>a</span></span><span class="r" style="--i:13"><span>l</span><span>l</span></span><span class="r sp"> </span><span class="r" style="--i:15"><span>E</span><span>E</span></span><span class="r" style="--i:16"><span>c</span><span>c</span></span><span class="r" style="--i:17"><span>h</span><span>h</span></span><span class="r" style="--i:18"><span>o</span><span>o</span></span></span></span>
+</a>
+<a class="project-item" href="projects/cosmo_nft_marketplace.html" data-sfx data-color="#ff8a00">
+  <span class="pi-media"><img src="assets/img/pool/1462331940025-496dfbfc7564.jpg" alt="Cosmo — NFT Marketplace preview" loading="lazy"></span>
+  <span class="pi-tags">web • design • development • 3d • web3</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>C</span><span>C</span></span><span class="r" style="--i:1"><span>o</span><span>o</span></span><span class="r" style="--i:2"><span>s</span><span>s</span></span><span class="r" style="--i:3"><span>m</span><span>m</span></span><span class="r" style="--i:4"><span>o</span><span>o</span></span><span class="r sp"> </span><span class="r" style="--i:6"><span>—</span><span>—</span></span><span class="r sp"> </span><span class="r" style="--i:8"><span>N</span><span>N</span></span><span class="r" style="--i:9"><span>F</span><span>F</span></span><span class="r" style="--i:10"><span>T</span><span>T</span></span><span class="r sp"> </span><span class="r" style="--i:12"><span>M</span><span>M</span></span><span class="r" style="--i:13"><span>a</span><span>a</span></span><span class="r" style="--i:14"><span>r</span><span>r</span></span><span class="r" style="--i:15"><span>k</span><span>k</span></span><span class="r" style="--i:16"><span>e</span><span>e</span></span><span class="r" style="--i:17"><span>t</span><span>t</span></span><span class="r" style="--i:18"><span>p</span><span>p</span></span><span class="r" style="--i:19"><span>l</span><span>l</span></span><span class="r" style="--i:20"><span>a</span><span>a</span></span><span class="r" style="--i:21"><span>c</span><span>c</span></span><span class="r" style="--i:22"><span>e</span><span>e</span></span></span></span>
+</a>
+<a class="project-item" href="projects/fdx_2025.html" data-sfx data-color="#36e0ff">
+  <span class="pi-media"><img src="assets/img/pool/1617791160505-6f00504e3519.jpg" alt="FDX 2025 preview" loading="lazy"></span>
+  <span class="pi-tags">web • design • development • 3d</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>F</span><span>F</span></span><span class="r" style="--i:1"><span>D</span><span>D</span></span><span class="r" style="--i:2"><span>X</span><span>X</span></span><span class="r sp"> </span><span class="r" style="--i:4"><span>2</span><span>2</span></span><span class="r" style="--i:5"><span>0</span><span>0</span></span><span class="r" style="--i:6"><span>2</span><span>2</span></span><span class="r" style="--i:7"><span>5</span><span>5</span></span></span></span>
+</a>
+<a class="project-item" href="projects/loop_land.html" data-sfx data-color="#4fd18b">
+  <span class="pi-media"><img src="assets/img/pool/1626544827763-d516dce335e2.jpg" alt="Loop Land preview" loading="lazy"></span>
+  <span class="pi-tags">concept • web • game design • 3d</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>L</span><span>L</span></span><span class="r" style="--i:1"><span>o</span><span>o</span></span><span class="r" style="--i:2"><span>o</span><span>o</span></span><span class="r" style="--i:3"><span>p</span><span>p</span></span><span class="r sp"> </span><span class="r" style="--i:5"><span>L</span><span>L</span></span><span class="r" style="--i:6"><span>a</span><span>a</span></span><span class="r" style="--i:7"><span>n</span><span>n</span></span><span class="r" style="--i:8"><span>d</span><span>d</span></span></span></span>
+</a>
+<a class="project-item" href="projects/fizz_lab.html" data-sfx data-color="#ff2a2a">
+  <span class="pi-media"><img src="assets/img/pool/1604871000636-074fa5117945.jpg" alt="Fizz Lab preview" loading="lazy"></span>
+  <span class="pi-tags">AR • development • 3d</span>
+  <span class="pi-title"><span class="pi-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span><span class="pi-name"><span class="r" style="--i:0"><span>F</span><span>F</span></span><span class="r" style="--i:1"><span>i</span><span>i</span></span><span class="r" style="--i:2"><span>z</span><span>z</span></span><span class="r" style="--i:3"><span>z</span><span>z</span></span><span class="r sp"> </span><span class="r" style="--i:5"><span>L</span><span>L</span></span><span class="r" style="--i:6"><span>a</span><span>a</span></span><span class="r" style="--i:7"><span>b</span><span>b</span></span></span></span>
+</a></div>
+  <a id="featured-cta" class="cta" href="projects.html" data-sfx><span class="cta-dot"></span><span class="cta-text">See all projects</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></a>
+</section>
+
+<section id="goal" class="section">
+  <div id="goal-intro">
+    <svg id="goal-line" class="snake snake--cyan" aria-hidden="true"><path class="s-base"/><path class="s-hi"/></svg>
+    <h2 id="goal-title" class="reveal"><span class="ln"><span>Where Creative Ideas</span></span><span class="ln"><span>Become Immersive</span></span><span class="ln"><span>Experiences</span></span></h2>
+    <div id="goal-texts" class="reveal rot">
+      <p><span class="w" style="--wi:0"><span>We</span></span> <span class="w" style="--wi:1"><span>never</span></span> <span class="w" style="--wi:2"><span>chase</span></span> <span class="w" style="--wi:3"><span>trends</span></span> <span class="w" style="--wi:4"><span>or</span></span> <span class="w" style="--wi:5"><span>ship</span></span> <span class="w" style="--wi:6"><span>work</span></span> <span class="w" style="--wi:7"><span>that</span></span> <span class="w" style="--wi:8"><span>looks</span></span> <span class="w" style="--wi:9"><span>like</span></span> <span class="w" style="--wi:10"><span>everyone</span></span> <span class="w" style="--wi:11"><span>else's.</span></span> <span class="w" style="--wi:12"><span>We</span></span> <span class="w" style="--wi:13"><span>focus</span></span> <span class="w" style="--wi:14"><span>on</span></span> <span class="w" style="--wi:15"><span>visually</span></span> <span class="w" style="--wi:16"><span>distinctive</span></span> <span class="w" style="--wi:17"><span>experiences</span></span> <span class="w" style="--wi:18"><span>that</span></span> <span class="w" style="--wi:19"><span>reflect</span></span> <span class="w" style="--wi:20"><span>your</span></span> <span class="w" style="--wi:21"><span>brand,</span></span> <span class="w" style="--wi:22"><span>pull</span></span> <span class="w" style="--wi:23"><span>your</span></span> <span class="w" style="--wi:24"><span>audience</span></span> <span class="w" style="--wi:25"><span>in</span></span> <span class="w" style="--wi:26"><span>and</span></span> <span class="w" style="--wi:27"><span>stay</span></span> <span class="w" style="--wi:28"><span>in</span></span> <span class="w" style="--wi:29"><span>their</span></span> <span class="w" style="--wi:30"><span>memory</span></span> <span class="w" style="--wi:31"><span>long</span></span> <span class="w" style="--wi:32"><span>after</span></span> <span class="w" style="--wi:33"><span>the</span></span> <span class="w" style="--wi:34"><span>visit.</span></span></p>
+      <p><span class="w" style="--wi:0"><span>Our</span></span> <span class="w" style="--wi:1"><span>process</span></span> <span class="w" style="--wi:2"><span>mixes</span></span> <span class="w" style="--wi:3"><span>creative</span></span> <span class="w" style="--wi:4"><span>direction,</span></span> <span class="w" style="--wi:5"><span>3D</span></span> <span class="w" style="--wi:6"><span>craft</span></span> <span class="w" style="--wi:7"><span>and</span></span> <span class="w" style="--wi:8"><span>interactive</span></span> <span class="w" style="--wi:9"><span>engineering</span></span> <span class="w" style="--wi:10"><span>to</span></span> <span class="w" style="--wi:11"><span>build</span></span> <span class="w" style="--wi:12"><span>tailored</span></span> <span class="w" style="--wi:13"><span>digital</span></span> <span class="w" style="--wi:14"><span>journeys</span></span> <span class="w" style="--wi:15"><span>that</span></span> <span class="w" style="--wi:16"><span>feel</span></span> <span class="w" style="--wi:17"><span>original,</span></span> <span class="w" style="--wi:18"><span>polished</span></span> <span class="w" style="--wi:19"><span>and</span></span> <span class="w" style="--wi:20"><span>made</span></span> <span class="w" style="--wi:21"><span>to</span></span> <span class="w" style="--wi:22"><span>perform.</span></span></p>
+    </div>
+    <div id="goal-tablet-slot"></div>
+  </div>
+  <div id="tunnel-pin">
+    <div id="tunnel-stage">
+      <canvas id="tunnel-canvas"></canvas>
+      <div id="tunnel-tablet"><i class="tablet-cam"></i></div>
+      <h3 id="tunnel-title"><span class="tl"><span class="tw">Step</span><span class="tw">into</span><span class="tw">a</span><span class="tw">new</span><span class="tw">world</span></span><span class="tl"><span class="tw">and</span><span class="tw">let</span><span class="tw">your</span></span><span class="tl"><span class="tw">imagination</span><span class="tw">run</span><span class="tw">wild</span></span></h3>
+      <div id="tunnel-flash"></div>
+      <div id="tunnel-monitor"><div class="monitor-screen"></div><div class="monitor-stand"></div></div>
+    </div>
+  </div>
+</section>
+<section id="end" class="end end--dark">
+  <div class="end-sticky">
+    <canvas class="end-canvas"></canvas>
+    <canvas class="end-astro" aria-hidden="true"></canvas>
+    <div class="end-stickers" aria-hidden="true"></div>
+    <div class="end-content">
+      <div class="end-crosses"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div>
+      <p class="end-sub"><span class="ln"><span>Is your big idea ready to go wild?</span></span></p>
+      <a class="end-title" href="mailto:hello@novara.studio" data-sfx>
+        <span class="end-line"><span class="r" style="--i:0"><span>L</span><span>L</span></span><span class="r" style="--i:1"><span>e</span><span>e</span></span><span class="r" style="--i:2"><span>t</span><span>t</span></span><span class="r" style="--i:3"><span>'</span><span>'</span></span><span class="r" style="--i:4"><span>s</span><span>s</span></span><span class="r sp"> </span><span class="r" style="--i:6"><span>w</span><span>w</span></span><span class="r" style="--i:7"><span>o</span><span>o</span></span><span class="r" style="--i:8"><span>r</span><span>r</span></span><span class="r" style="--i:9"><span>k</span><span>k</span></span></span>
+        <span class="end-line"><span class="r" style="--i:0"><span>t</span><span>t</span></span><span class="r" style="--i:1"><span>o</span><span>o</span></span><span class="r" style="--i:2"><span>g</span><span>g</span></span><span class="r" style="--i:3"><span>e</span><span>e</span></span><span class="r" style="--i:4"><span>t</span><span>t</span></span><span class="r" style="--i:5"><span>h</span><span>h</span></span><span class="r" style="--i:6"><span>e</span><span>e</span></span><span class="r" style="--i:7"><span>r</span><span>r</span></span><span class="r" style="--i:8"><span>!</span><span>!</span></span></span>
+        <i class="end-deco end-deco--t"></i><i class="end-deco end-deco--bl"></i><i class="end-deco end-deco--br"></i>
+      </a>
+    </div>
+    <div class="end-bottom"><span class="end-arrows"><i></i><i></i></span><span class="end-bottom-text"><span>Continue to scroll</span><span>Continue to scroll</span></span><span class="end-arrows"><i></i><i></i></span></div>
+  </div>
+</section>
+<footer id="footer">
+  <div class="footer-middle">
+    <div class="footer-contact">
+      <a class="footer-address" href="https://maps.google.com/" target="_blank" rel="noopener"><span class="fl"><span>Studio 4</span></span><span class="fl"><span>12 Rua das Flores</span></span><span class="fl"><span>Lisbon, 1200-195</span></span><span class="fl"><span>Portugal</span></span></a>
+      <div class="footer-socials"><a class="fl soc" href="https://x.com/" target="_blank" rel="noopener" data-sfx><span class="soc-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span><span class="soc-text">Twitter / X</span></a><a class="fl soc" href="https://instagram.com/" target="_blank" rel="noopener" data-sfx><span class="soc-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span><span class="soc-text">Instagram</span></a><a class="fl soc" href="https://linkedin.com/" target="_blank" rel="noopener" data-sfx><span class="soc-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span><span class="soc-text">Linkedin</span></a></div>
+      <div class="footer-mail"><p class="fl"><span>General enquiries</span></p><a class="fl ul" href="mailto:hello@novara.studio" data-sfx><span>hello@novara.studio</span></a></div>
+      <div class="footer-mail"><p class="fl"><span>New business</span></p><a class="fl ul" href="mailto:studio@novara.studio" data-sfx><span>studio@novara.studio</span></a></div>
+    </div>
+    <div class="footer-news">
+      <h3><span class="fl"><span>Subscribe to</span></span><span class="fl"><span>our newsletter</span></span></h3>
+      <form class="news-form" novalidate data-news="footer"><i class="news-bg"></i>
+    <input type="email" placeholder="Your email" aria-label="Your email" autocomplete="email" data-focus-sfx>
+    <button type="submit" aria-label="Subscribe" data-sfx><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+    <p class="news-msg" aria-live="polite"></p>
+  </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>©2026 NOVARA Creative Studio</p>
+    <a class="ul" href="https://example.com/" target="_blank" rel="noopener">R&amp;D: lab.novara.studio</a>
+    <p>Built by NOVARA with <span class="heart">♥</span></p>
+    <button id="up-btn" aria-label="Back to top" data-sfx><span class="up-ico"><svg viewBox="0 0 16 16"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><svg viewBox="0 0 16 16"><path d="M8 13V3M3.5 7.5 8 3l4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></button>
+  </div>
+</footer>
+<section id="scroll-nav" data-overscroll data-var="--snp" data-href="about.html">
+  <p class="sn-sub">Keep scrolling<br>to learn more</p>
+  <a class="sn-main" href="about.html" data-sfx>
+    <span class="sn-text">About us</span>
+    <span class="sn-next"><span>Next page</span><span class="sn-bar"><i></i></span><span class="sn-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span></span>
+  </a>
+  <div class="sn-crosses"><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i><i class="x"></i></div>
+</section>
+</main>
+<div id="scroll-indicator"><i></i></div>
+<div id="preloader" aria-hidden="true">
+  <div class="pl-bar"><i></i></div><svg class="glyph" viewBox="0 0 40 40" aria-hidden="true"><rect class="g1" x="6" y="6" width="7" height="28"/><rect class="g2" x="17" y="6" width="7" height="28"/><rect class="g3" x="27" y="6" width="7" height="28"/></svg>
+  <div class="pl-digits"><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span><span class="pl-d"><span><b>0</b><b>1</b><b>2</b><b>3</b><b>4</b><b>5</b><b>6</b><b>7</b><b>8</b><b>9</b><b>0</b></span></span></div>
+</div>
+<div id="transition" aria-hidden="true"><i class="tr-a"></i><i class="tr-b"></i><div class="tr-load"></div></div>
+<div id="video-overlay" aria-hidden="true" role="dialog" aria-label="Showreel">
+  <video playsinline preload="none" src="assets/video/v51214.mp4"></video>
+  <button id="vo-close" aria-label="Close video"><svg viewBox="0 0 16 16"><path d="M3 3l10 10M13 3 3 13" stroke="currentColor" stroke-width="1.6"/></svg></button>
+  <div id="vo-controls"><button id="vo-play">Pause</button><div id="vo-progress"><i></i></div><button id="vo-mute">Mute</button></div>
+  <div id="vo-cursor"><span>Close</span></div>
+</div>
+<script src="assets/vendor/three.min.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/fluid.js"></script>
+<script src="assets/js/astronaut.js"></script>
+<script src="assets/js/hero.js"></script>
+<script src="assets/js/home.js"></script>
+<script src="assets/js/end.js"></script>
+</body>
+</html>
